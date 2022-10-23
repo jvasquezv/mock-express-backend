@@ -3,7 +3,7 @@ kind: NetworkPolicy
 apiVersion: networking.k8s.io/v1
 metadata:
   name: allow-express-nodejs-traffic
-  namespace: express-nodejs
+  namespace: nodejs-express-backend-devqa
 spec:
   podSelector:
     matchLabels:
