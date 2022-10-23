@@ -3,7 +3,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
   name: express-nodejs-role
-  namespace: express-nodejs
+  namespace: nodejs-express-backend-devqa
 rules:
   - apiGroups: ["", "apps"] # "" indicates the core API group
     resources: ["*"]
